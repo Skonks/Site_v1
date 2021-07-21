@@ -4,13 +4,14 @@
 * {
   margin: 0;
 }
-/* HEADER */
+/* !HEADER */
 .title {
   text-align: center;
   font-family: "Luckiest Guy", cursive;
 }
 
-/* MAIN */
+/* !MAIN */
+/* Aqui estou arrumando o menu */
 .menu {
   text-align: justify;
 
@@ -23,29 +24,32 @@
   position: relative;
 }
 
+/* Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
 #yukielore,
 #yukieaparency,
 #matsukaze {
   width: 85%;
   text-align: justify;
-  font-family: 'Raleway', sans-serif;
-  word-wrap:  normal break-word;
+  font-family: "Raleway", sans-serif;
+  word-wrap: normal break-word;
   position: inherit;
 }
 
-#yukieaparency{
-    width: 50%;
+/* Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
+#yukieaparency {
+  width: 50%;
 }
 
-.fotoyukie{
-    max-width: 200px;
-    position: absolute;
-    right: 30%;
-    top: 50%;
+/* Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
+.fotoyukie {
+  max-width: 200px;
+  position: absolute;
+  right: 30%;
+  top: 50%;
 }
 
-/* FOOTER */
-#copyright{
-    text-align: center;
-    position: relative;
+/* !FOOTER */
+#copyright {
+  text-align: center;
+  position: relative;
 }
