@@ -30,10 +30,18 @@
   text-align: justify;
   font-family: 'Raleway', sans-serif;
   word-wrap:  normal break-word;
+  position: inherit;
 }
 
 #yukieaparency{
     width: 50%;
+}
+
+.fotoyukie{
+    max-width: 200px;
+    position: absolute;
+    right: 30%;
+    top: 50%;
 }
 
 /* FOOTER */
