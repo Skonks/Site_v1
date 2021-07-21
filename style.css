@@ -32,6 +32,10 @@
   word-wrap:  normal break-word;
 }
 
+#yukieaparency{
+    width: 50%;
+}
+
 /* FOOTER */
 #copyright{
     text-align: center;
