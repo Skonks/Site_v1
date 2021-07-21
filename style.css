@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); /*   font-family: 'Luckiest Guy', cursive; para title */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); /* font-family: 'Raleway', sans-serif; para conteúdo */
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"); /*   font-family: 'Luckiest Guy', cursive; para title */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /* font-family: 'Raleway', sans-serif; para conteúdo */
 
 * {
   margin: 0;
 }
-
+/* HEADER */
 .title {
   text-align: center;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
 }
 
+/* MAIN */
 .menu {
   text-align: justify;
 
@@ -18,14 +19,21 @@
   width: 85%;
   box-sizing: border-box;
 
-  margin: 10px;
-  padding: 20px;
+  padding: 18px;
   position: relative;
 }
 
 #yukielore,
 #yukieaparency,
-#matsukaze
-{
-    text-align: justify;
+#matsukaze {
+  width: 85%;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  word-wrap:  normal break-word;
+}
+
+/* FOOTER */
+#copyright{
+    text-align: center;
+    position: relative;
 }
