@@ -19,11 +19,13 @@
   box-sizing: border-box;
 
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   position: relative;
 }
 
-#yukie{
+#yukielore,
+#yukieaparency,
+#matsukaze
+{
     text-align: justify;
-    text-
 }
