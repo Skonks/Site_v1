@@ -1,8 +1,24 @@
-.title  {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); /*   font-family: 'Luckiest Guy', cursive; para title */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); /* font-family: 'Raleway', sans-serif; para conteúdo */
+
+* {
+  margin: 0;
 }
 
-.nav{
-    border: 1px solid black;
-    position: relative;
+.title {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.menu {
+  text-align: justify;
+
+  border: 1px solid black;
+  height: 30px;
+  width: 85%;
+  box-sizing: border-box;
+
+  margin: 10px;
+  padding: 30px;
+  position: relative;
 }
