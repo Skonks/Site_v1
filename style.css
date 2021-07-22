@@ -58,7 +58,7 @@ h2 {
 }
 
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
-aparency {
+#aparency {
   width: 50%;
 }
 
