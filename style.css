@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /* font-family: 'Raleway', sans-serif; para conteúdo */
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"); /* font-family: 'Otomanopee One', sans-serif; */
 
+/* ?Resetando configurações do user agent */
 * {
   margin: 0;
   padding: 0;
