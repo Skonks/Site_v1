@@ -11,13 +11,18 @@
 }
 
 /* !MAIN */
-/* Aqui estou arrumando o menu */
+/* ?Aqui estou arrumando o menu */
+/* *Mudando a cor da fonte/aonde ela vai ficar */
 a:link {
+  border: 2px solid black;
+
   text-decoration: none;
-  text-align: left center right; 
+  text-align: left center right;
   color: white;
+
 }
 
+/* *Mudando o alinhamento do texto, botando borda na box, colocando cor nela e mudando as proporções  */
 .menu {
   text-align: justify;
 
@@ -31,23 +36,22 @@ a:link {
   position: relative;
 }
 
-/* Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
+/* *Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
 #yukielore,
 #yukieaparency,
 #matsukaze {
   width: 85%;
   text-align: justify;
   font-family: "Raleway", sans-serif;
-  word-wrap: normal break-word;
   position: inherit;
 }
 
-/* Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
+/* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
 #yukieaparency {
   width: 50%;
 }
 
-/* Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
+/* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
 .fotoyukie {
   max-width: 200px;
   position: absolute;
