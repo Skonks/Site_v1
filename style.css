@@ -46,8 +46,8 @@ h2 {
 }
 
 /* *Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
-#yukielore,
-#yukieaparency,
+#lore,
+#aparency,
 #matsukaze {
   width: 85%;
 
@@ -58,16 +58,16 @@ h2 {
 }
 
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
-#yukieaparency {
+aparency {
   width: 50%;
 }
 
 /* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
-.fotoyukie {
+.foto {
   max-width: 200px;
 
-  right: 27%;
-  top: 55%;
+  left: 55%;
+  bottom: 20% ;
 
   position: absolute;
 }
@@ -97,14 +97,9 @@ h2 {
   text-align: center;
   font-family: "Otomanopee One", sans-serif;
 
-  border: 3px solid black;
+  border: 2px solid black;
 
-  height: 40px;
-  width: 35%;
-  top: auto;
-  bottom: 100%;
+  margin-top: 1%;
 
-  box-sizing: border-box;
-
-  padding: 2px;
+  bottom: 0;
 }
