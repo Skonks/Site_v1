@@ -14,7 +14,7 @@
 /* ?Aqui estou arrumando o menu */
 /* *Mudando a cor da fonte/aonde ela vai ficar */
 a:link {
-  padding: 80px;
+  margin: 80px;
 
   text-decoration: none;
   color: white;
@@ -41,6 +41,7 @@ a:link {
 #yukieaparency,
 #matsukaze {
   width: 85%;
+
   text-align: justify;
   font-family: "Raleway", sans-serif;
 }
@@ -53,13 +54,16 @@ a:link {
 /* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
 .fotoyukie {
   max-width: 200px;
-  position: absolute;
+
   right: 30%;
   top: 50%;
+
+  position: absolute;
 }
 
 /* !FOOTER */
 #copyright {
   text-align: center;
+
   position: relative;
 }
