@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"); /*   font-family: 'Luckiest Guy', cursive; para title */
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /* font-family: 'Raleway', sans-serif; para conteúdo */
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap'); /* font-family: 'Otomanopee One', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"); /* font-family: 'Otomanopee One', sans-serif; */
 
 * {
   margin: 0px;
@@ -8,7 +8,7 @@
 /* !HEADER */
 .title {
   text-align: center;
-  font-family: 'Otomanopee One', sans-serif;
+  font-family: "Otomanopee One", sans-serif;
 }
 
 /* !MAIN */
@@ -24,14 +24,14 @@ a:link {
 }
 
 /* *Mudando a fonte do nome */
-h2{
-  font-family: 'Otomanopee One', sans-serif;
+h2 {
+  font-family: "Otomanopee One", sans-serif;
 }
 
 /* *Mudando o alinhamento do texto, botando borda na box, colocando cor nela e mudando as proporções  */
 .menu {
   text-align: justify;
-  font-family: 'Otomanopee One', sans-serif;;
+  font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
   background-color: #475f94;
@@ -64,8 +64,8 @@ h2{
 .fotoyukie {
   max-width: 200px;
 
-  right: 30%;
-  top: 50%;
+  right: 27%;
+  top: 55%;
 
   position: absolute;
 }
