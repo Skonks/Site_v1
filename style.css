@@ -3,7 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"); /* font-family: 'Otomanopee One', sans-serif; */
 
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* A partir da borda */
 }
 /* !HEADER */
 .title {
@@ -19,8 +21,6 @@ a:link {
 
   text-decoration: none;
   color: white;
-
-  box-sizing: border-box;
 }
 
 /* *Mudando a fonte do nome */
@@ -38,8 +38,6 @@ h2 {
 
   height: 60px;
   width: 85%;
-
-  box-sizing: border-box;
 
   padding: 18px;
   position: fixed;
@@ -86,8 +84,6 @@ h2 {
   top: 1px;
   right: 1px;
   left: 86%;
-
-  box-sizing: border-box;
 
   padding: 10px;
   position: fixed;
