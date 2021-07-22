@@ -14,12 +14,10 @@
 /* ?Aqui estou arrumando o menu */
 /* *Mudando a cor da fonte/aonde ela vai ficar */
 a:link {
-  border: 2px solid black;
+  padding: 80px;
 
   text-decoration: none;
-  text-align: left center right;
   color: white;
-
 }
 
 /* *Mudando o alinhamento do texto, botando borda na box, colocando cor nela e mudando as proporções  */
@@ -28,8 +26,10 @@ a:link {
 
   border: 2px solid black;
   background-color: #475f94;
+
   height: 30px;
   width: 85%;
+
   box-sizing: border-box;
 
   padding: 18px;
@@ -43,7 +43,6 @@ a:link {
   width: 85%;
   text-align: justify;
   font-family: "Raleway", sans-serif;
-  position: inherit;
 }
 
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
