@@ -52,7 +52,6 @@ h2 {
   position: fixed;
 }
 
-
 /* *Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
 #lore,
 #aparencyyukie,
@@ -112,6 +111,7 @@ h2 {
   padding: 10px;
   position: fixed;
 }
+
 /* ?Aqui estou arrumando a copyright do site */
 #copyright {
   text-align: center;
