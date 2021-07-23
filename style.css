@@ -18,7 +18,7 @@
 /* ?Aqui estou arrumando o menu */
 /* *Mudando a cor da fonte/aonde ela vai ficar */
 a:link {
-  margin: 100px;
+  margin: 20px;
 
   text-decoration: none;
   color: black;
@@ -40,7 +40,6 @@ h2 {
 
 /* *Mudando o alinhamento do texto, botando borda na box, colocando cor nela e mudando as proporções  */
 .menu {
-  text-align: justify;
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
@@ -49,15 +48,15 @@ h2 {
   height: 60px;
   width: 85%;
 
-  padding: 18px;
+  padding: 30px;
   position: fixed;
 }
+
 
 /* *Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
 #lore,
 #aparencyyukie,
-#aparencychris,
-#matsukaze {
+#aparencychris {
   width: 85%;
 
   position: relative;
@@ -69,6 +68,18 @@ h2 {
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
 #aparencyyukie {
   width: 50%;
+}
+
+#aparencychris {
+  width: 50%;
+}
+.fotochris {
+  max-width: 200px;
+
+  left: 55%;
+  bottom: 20%;
+
+  position: absolute;
 }
 
 /* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
