@@ -21,9 +21,15 @@ a:link {
   margin: 100px;
 
   text-decoration: none;
-  color: white;
+  color: black;
+}
+a:visited {
+  color: black;
 }
 
+body{
+  background-color:#FFD1DF;
+}
 /* *Mudando a fonte do nome */
 h2 {
   font-family: "Otomanopee One", sans-serif;
@@ -35,7 +41,7 @@ h2 {
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
-  background-color: #475f94;
+  background-color: #E78EA5;
 
   height: 60px;
   width: 85%;
@@ -78,7 +84,7 @@ h2 {
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
-  background-color: #475f94;
+  background-color: #E78EA5;
 
   height: 100%;
   width: 14%;
