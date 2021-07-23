@@ -48,6 +48,7 @@ h2 {
   height: 60px;
   width: 85%;
 
+  margin: 1px;
   padding: 30px;
   position: fixed;
 }
@@ -65,30 +66,29 @@ h2 {
 }
 
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
-#aparencyyukie {
-  width: 50%;
-}
-
+#aparencyyukie,
 #aparencychris {
   width: 50%;
 }
-.fotochris {
-  max-width: 200px;
-
-  left: 55%;
-  bottom: 20%;
-
-  position: absolute;
-}
 
 /* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
+.fotochris,
 .fotoyukie {
   max-width: 200px;
 
   left: 55%;
   bottom: 20%;
 
-  position: absolute;
+  position: fixed;
+}
+
+/* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
+.majikoi{
+  max-width: 200px;
+
+  bottom: 5%;
+  right: 57%;
+  position: fixed;
 }
 
 /* !FOOTER */
@@ -108,6 +108,7 @@ h2 {
   right: 1px;
   left: 86%;
 
+  
   padding: 10px;
   position: fixed;
 }
