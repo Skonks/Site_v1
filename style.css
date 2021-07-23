@@ -23,12 +23,15 @@ a:link {
   text-decoration: none;
   color: black;
 }
+
+/* ?Aqui estou mudando a cor depois que o link foi visitado */
 a:visited {
   color: black;
 }
 
-body{
-  background-color:#FFD1DF;
+/* ?Trocando a background color */
+body {
+  background-color: #ffd1df;
 }
 /* *Mudando a fonte do nome */
 h2 {
@@ -41,7 +44,7 @@ h2 {
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
-  background-color: #E78EA5;
+  background-color: #e78ea5;
 
   height: 60px;
   width: 85%;
@@ -79,12 +82,13 @@ h2 {
 }
 
 /* !FOOTER */
+/* ?Aqui estou arrumando o o side menu */
 #sidemenu {
   text-align: center;
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
-  background-color: #E78EA5;
+  background-color: #e78ea5;
 
   height: 100%;
   width: 14%;
@@ -97,14 +101,13 @@ h2 {
   padding: 10px;
   position: fixed;
 }
-
+/* ?Aqui estou arrumando a copyright do site */
 #copyright {
   text-align: center;
   font-family: "Otomanopee One", sans-serif;
 
   border: 2px solid black;
   width: 1129px;
-  
 
   margin-top: 0%;
   bottom: 0%;
