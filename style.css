@@ -46,7 +46,8 @@ h2 {
 
 /* *Aqui estou fazendo o texto pegar apenas 85 da página para o menu lateral */
 #lore,
-#aparency,
+#aparencyyukie,
+#aparencychris,
 #matsukaze {
   width: 85%;
 
@@ -57,12 +58,12 @@ h2 {
 }
 
 /* *Aqui estou fazendo a aparencia pegar 50% da página para colocar a foto */
-#aparency {
+#aparencyyukie {
   width: 50%;
 }
 
 /* *Aqui estou deixando a imagem na parte certa do site (Ainda preciso arrumar) */
-.foto {
+.fotoyukie {
   max-width: 200px;
 
   left: 55%;
@@ -82,7 +83,8 @@ h2 {
   height: 100%;
   width: 14%;
 
-  top: 1px;
+  top: 0px;
+  bottom: 0px;
   right: 1px;
   left: 86%;
 
@@ -96,6 +98,7 @@ h2 {
 
   border: 2px solid black;
   width: 1129px;
+  
 
   margin-top: 0%;
   bottom: 0%;
